@@ -1,0 +1,6 @@
+/Code-TidyAll-Plugin-YAPF*
+.build
+local
+*.swo
+*.swp
+.tidyall.d
