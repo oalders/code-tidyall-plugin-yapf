@@ -43,10 +43,11 @@ Olaf Alders <olaf@wundercounter.com>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2017 by Olaf Alders.
+This software is Copyright (c) 2017 by MaxMind, Inc.
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+This is free software, licensed under:
+
+    The Artistic License 2.0 (GPL Compatible)
 
 # POD ERRORS
 

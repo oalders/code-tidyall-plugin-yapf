@@ -13,7 +13,7 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => 0
   },
   "DISTNAME" => "Code-TidyAll-Plugin-YAPF",
-  "LICENSE" => "perl",
+  "LICENSE" => "artistic_2",
   "MIN_PERL_VERSION" => "5.006",
   "NAME" => "Code::TidyAll::Plugin::YAPF",
   "PREREQ_PM" => {
