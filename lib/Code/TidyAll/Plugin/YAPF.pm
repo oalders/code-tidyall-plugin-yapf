@@ -52,6 +52,8 @@ Then run
 
 Runs C<yapf> on Python files.
 
+=over
+
 =item argv
 
 Arguments to pass to C<yapf>.
