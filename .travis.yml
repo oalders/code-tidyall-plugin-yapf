@@ -17,4 +17,5 @@ notifications:
     on_success: always
     on_failure: always
 before_install:
+  - cpanm https://github.com/oalders/dist-zilla-pluginbundle-author-oalders.git
   - eval $(curl https://travis-perl.github.io/init) --auto
