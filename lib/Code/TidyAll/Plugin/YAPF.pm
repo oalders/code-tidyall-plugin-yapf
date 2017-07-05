@@ -42,7 +42,7 @@ This module requires L<Code::TidyAll>.
    In the .tidyallrc configuration file add:
 
    [YAPF]
-   select = static/**/*.py
+   select = **/*.py
 
 Then run
 
