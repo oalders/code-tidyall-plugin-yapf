@@ -25,14 +25,18 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {
+    "Code::TidyAll::Plugin::PerlTidy" => 0,
+    "Code::TidyAll::Plugin::SortLines::Naturally" => "0.000003",
+    "Code::TidyAll::Plugin::UniqueLines" => "0.000003",
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
     "IO::Handle" => 0,
     "IPC::Open3" => 0,
+    "Test::Code::TidyAll" => "0.49",
     "Test::More" => 0,
     "blib" => "1.01"
   },
-  "VERSION" => "0.000001",
+  "VERSION" => "0.000002",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,12 +45,16 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Code::TidyAll::Plugin" => 0,
+  "Code::TidyAll::Plugin::PerlTidy" => 0,
+  "Code::TidyAll::Plugin::SortLines::Naturally" => "0.000003",
+  "Code::TidyAll::Plugin::UniqueLines" => "0.000003",
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
   "IPC::Run3" => 0,
   "Moo" => 0,
+  "Test::Code::TidyAll" => "0.49",
   "Test::More" => 0,
   "Try::Tiny" => 0,
   "blib" => "1.01",
